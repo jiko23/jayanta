@@ -4,6 +4,5 @@ In file number (2), the reading of the dataset,descriptions, seperation of train
 To run the script just run "python customersucessbox_2.py"
 As results the script will generate classification report and precision-recall plot.
 In the result the precision will be more than recall because the imbalance factor of the two classes present in the dataset is too high.
-To deal with it option is resampling i.e. either upsample the minority class or downsample the majority class. But of we upsample the minority class here then we are defining the other class as minority and the result will be high recall but less precision. On other hand if we downsample the majority class to match with the minority class then we are loosing more information. So the best possible way is to collect more data.
-The main focus should be on each class F1-score and the stack model presents a good example of this.
+To deal with it option is resampling i.e. either upsample the minority class or downsample the majority class. But of we upsample the minority class here then we are defining the other class as minority and the result will be high recall but less precision. On other hand if we downsample the majority class to match with the minority class then we are loosing more information. So the best possible way is to collect more data or choose a good model.
 Further changes could be done in the data preprocessing step.
